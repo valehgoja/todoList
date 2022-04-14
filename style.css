@@ -1,0 +1,140 @@
+.divFirst {
+    border: 1px solid #C4C4C4;
+    position: absolute;
+    width: 336px;
+    height: auto;
+    left: 408px;
+    top: 232px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.divSecond {
+    background-color: #FFDc40;
+    width: 336px;
+    height: 30.45px;
+    left: 408px;
+    top: 232px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.input {
+
+    width: 286px;
+    height: 43.5px;
+    left: 436px;
+    top: 359.24px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.closeBtn {
+    width: 20px;
+    height: 21.75px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
+.closeBtn:hover{
+    background-color: #833AE0;
+}
+.closeBtnList {
+    width: 20px;
+    height: 21.75px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.closeBtnList:hover{
+    background-color: #833AE0;
+}
+
+.divFourth {
+    position: relative;
+}
+
+/* img {
+    width: 10px;
+} */
+
+.addbutton {
+    position: relative;
+    width: 150px;
+    height: 45.68px;
+    background: #833AE0;
+    border-radius: 71px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+
+span {
+    position: absolute;
+    width: 45.68px;
+    height: 45.68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    top: 0%;
+
+    background: #9953F1;
+    border-radius: 71px;
+}
+
+.drop {
+    display: flex;
+    margin-left: 275px;
+    top: 250px;
+    width: 25px;
+    height: 15px;
+
+}
+
+ul {
+    position: relative;
+    display: block;
+    width: 286px;
+    height: auto;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: scroll ;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+ul li p{
+    margin: 0;
+}
